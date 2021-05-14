@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: 
+  linear-gradient(to right top, 
+  #5715cf, 
+  #b600a4,
+  #e20073,
+  #f10043,
+  #eb3a12);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
